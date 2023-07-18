@@ -106,3 +106,40 @@ footer{
     padding: 5px;
     text-align: center;
 }
+
+
+/*********************************************************************************************/
+/********************************** M E D I A Q U E R I E S **********************************/
+/*********************************************************************************************/
+
+/* VERSIÓN TABLET (PARA PANTALLAS CON UN MÁXIMO DE 780PX DE ANCHO) */
+
+@media only screen and (max-width: 780px) {
+   
+    /* ESTILOS DEL ENCABEZADO */
+    
+    /* ESTILOS DEL MAIN */
+
+        main{
+            background-color: rgb(254,255,3);
+            flex-direction: column;
+        }
+        
+        section{
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 12px;
+        }
+
+        article{
+            flex-basis: 40%;
+        }
+        
+        aside{
+            width: 100%;
+        }
+
+    /* ESTILOS DEL FOOTER */
+
+  }
+
