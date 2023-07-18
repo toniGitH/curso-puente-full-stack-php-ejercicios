@@ -107,7 +107,6 @@ footer{
     text-align: center;
 }
 
-
 /*********************************************************************************************/
 /********************************** M E D I A Q U E R I E S **********************************/
 /*********************************************************************************************/
@@ -141,5 +140,49 @@ footer{
 
     /* ESTILOS DEL FOOTER */
 
-  }
+}
 
+/* VERSIÓN MÓVIL (PARA PANTALLAS CON UN MÁXIMO DE 480PX DE ANCHO) */
+
+@media only screen and (max-width: 480px) {
+   
+    /* ESTILOS DEL ENCABEZADO */
+    
+    .cajaNavegacion{
+        flex-direction: column;
+    }
+
+    /* ESTILOS DEL MAIN */
+
+    main{
+        background-color: rgb(254,226,40);
+    }
+    
+    section{
+        background-color: rgb(9,80,111);
+    }
+
+    article{
+        background-color: rgb(97,149,156);
+        flex-basis: 100%;
+    }
+
+    section :last-child{
+        background-color: rgb(163,221,203);
+    }
+
+    aside{
+        background-color: rgb(253,123,84);
+    }
+
+    .lateral{
+        background-color: rgb(253,179,107);
+    }
+
+    /* ESTILOS DEL FOOTER */
+
+    .pie{
+        background-color: rgb(253,179,107);
+    }
+
+}
