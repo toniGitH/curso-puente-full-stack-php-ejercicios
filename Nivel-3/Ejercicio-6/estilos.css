@@ -18,7 +18,7 @@ body{
 
 @keyframes latidosColorRS {
     from {color: rgb(128,128,128);}
-    50% {color: blue;}
+    50% {color: rgb(240,102,102);}
     to {color: rgb(128,128,128);}
 }
 
